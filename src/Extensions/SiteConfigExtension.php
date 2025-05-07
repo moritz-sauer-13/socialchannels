@@ -1,6 +1,6 @@
 <?php
 
-namespace src\Extensions;
+namespace SocialChannels\Extensions;
 
 use SilverStripe\Core\Extension;
 use SilverStripe\Forms\FieldList;

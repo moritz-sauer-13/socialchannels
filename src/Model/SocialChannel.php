@@ -1,6 +1,6 @@
 <?php
 
-namespace src\Model;
+namespace SocialChannels\Model;
 
 use SilverStripe\Forms\DropdownField;
 use SilverStripe\Forms\FieldList;
