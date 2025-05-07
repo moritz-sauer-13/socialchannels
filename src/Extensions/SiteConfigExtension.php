@@ -7,7 +7,7 @@ use SilverStripe\Forms\FieldList;
 use SilverStripe\Forms\GridField\GridField;
 use SilverStripe\Forms\GridField\GridFieldConfig_RecordEditor;
 use SilverStripe\Forms\Tab;
-use src\Model\SocialChannel;
+use SocialChannels\Model\SocialChannel;
 use Symbiote\GridFieldExtensions\GridFieldOrderableRows;
 
 class SiteConfigExtension extends Extension
