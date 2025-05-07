@@ -1,0 +1,19 @@
+{
+  "name":"moritz-sauer-13/socialchannels",
+  "description": "Social Channels",
+  "authors": [
+    {
+      "name":"Moritz Sauer",
+      "email": "ms@tietge.com"
+    }
+  ],
+  "require":{
+    "silverstripe/recipe-cms": "^5",
+      "symbiote/silverstripe-gridfieldextensions": "^4"
+  },
+  "autoload": {
+    "psr-4": {
+      "SocialChannels\\": "src/"
+    }
+  }
+}

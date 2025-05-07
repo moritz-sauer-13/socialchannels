@@ -1,0 +1,7 @@
+---
+Name: SocialChannels
+---
+
+SilverStripe\SiteConfig\SiteConfig:
+  extensions:
+    - SocialChannels\SiteConfig\SiteConfigExtension

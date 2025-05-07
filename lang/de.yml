@@ -1,0 +1,6 @@
+de:
+  SocialChannels\Model\SocialChannel:
+    singular_name: "Socialmediakanal"
+    plural_name: "Socialmediakanäle"
+
+
