@@ -18,12 +18,12 @@ class SiteConfigExtension extends Extension
 
     public function updateCMSFields(FieldList $fields): void
     {
-        $fields->addFieldToTab('Root', Tab::create('SocialChannelsTab', _t(SocialChannel::class . '.plural_name')));
+        $fields->addFieldToTab('Root', Tab::create('SocialChannelsTab', "Socialmediakanäle"));
         $fields->addFieldToTab(
             'Root.SocialChannelsTab',
             GridField::create(
                 'SocialChannels',
-                _t(SocialChannel::class . '.plural_name'),
+                "Socialmediakanäle",
                 $this->owner->sortedSocialChannels(),
                 GridFieldConfig_RecordEditor::create()
                     ->addComponent(GridFieldOrderableRows::create('SortOrder'))
