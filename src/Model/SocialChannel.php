@@ -10,6 +10,8 @@ use SilverStripe\SiteConfig\SiteConfig;
 
 class SocialChannel extends DataObject
 {
+    private static string $table_name = 'SocialChannel';
+    
     private static array $db = [
         'Title' => 'Text',
         'Link' => 'Text',
